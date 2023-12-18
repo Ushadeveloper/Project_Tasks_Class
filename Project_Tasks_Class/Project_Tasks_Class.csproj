@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BC963D5-030D-4D49-A602-797D3C42D001}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Project_Tasks_Class</RootNamespace>
+    <AssemblyName>Project_Tasks_Class</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="58_onward\Taskss.cs" />
+    <Compile Include="AggregateMarks\MarksAgregate.cs" />
+    <Compile Include="AllownceSalary\SalaryAllaowance.cs" />
+    <Compile Include="AreaPerameterRectangle\RectangleAreaPer.cs" />
+    <Compile Include="Cashier\NoteCashier.cs" />
+    <Compile Include="checkvowel\checkv.cs" />
+    <Compile Include="CircleAreaPerimeter\AreaPerimeterCircle.cs" />
+    <Compile Include="DistanceCity\distance.cs" />
+    <Compile Include="Factorial\FactorialNumber.cs" />
+    <Compile Include="Faren_celcius\far_Cel.cs" />
+    <Compile Include="IllitracyPopulation\PopulationIllitrate.cs" />
+    <Compile Include="Login\Signin.cs" />
+    <Compile Include="MasrriedInsure\Insure.cs" />
+    <Compile Include="Matrix\matrixQuestion.cs" />
+    <Compile Include="Namee\Person.cs" />
+    <Compile Include="Prime\PrimeNumber.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Representation_day\Represent_day.cs" />
+    <Compile Include="ReverseDigits\DigitReverse.cs" />
+    <Compile Include="Salaryover\Salary.cs" />
+    <Compile Include="Shape\shapes.cs" />
+    <Compile Include="SwipeNumbers\numberSwipe.cs" />
+    <Compile Include="SwipeNumbers\SwipeNumber.cs" />
+    <Compile Include="Vowel\VowelContant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
