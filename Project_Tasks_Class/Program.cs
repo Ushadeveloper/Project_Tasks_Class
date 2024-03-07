@@ -135,8 +135,8 @@ namespace Project_Tasks_Class
             //================================================================================>>>>
 
             //Matrix Identity-------------------------------------
-            matrixQuestion matrix = new matrixQuestion();
-            matrix.matrixIdentity();
+            //matrixQuestion matrix = new matrixQuestion();
+            //matrix.matrixIdentity();
             // matrix.Squarematrix();
             //================================================================================>>>>
 
@@ -231,10 +231,10 @@ namespace Project_Tasks_Class
 
 
             //Prime Number----------------------------------
-            Console.Write("Enter the Number to check Prime: ");
-            int n = int.Parse(Console.ReadLine());
-            PrimeNumber primee = new PrimeNumber();
-            primee.prime(n);
+            //Console.Write("Enter the Number to check Prime: ");
+            //int n = int.Parse(Console.ReadLine());
+            //PrimeNumber primee = new PrimeNumber();
+            //primee.prime(n);
             //======================================================================
 
 
@@ -249,7 +249,9 @@ namespace Project_Tasks_Class
             //======================================================================================
 
 
-
+            checkv obj = new checkv();
+            //obj.checkvnc();
+            obj.Symbolvowel();
 
 
 
